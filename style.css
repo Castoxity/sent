@@ -5,7 +5,7 @@ body, html {
     justify-content: flex-start; /* Align content to the left */
     align-items: center; /* Center vertically */
     /* background: linear-gradient(0deg, #000, #3a78c0); */
-
+}
 .parent {
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ button {
 
 .tc {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -98,4 +98,10 @@ button {
     padding: 20px;
     background:linear-gradient(0deg, #000, #3a78c0);
     /* box-sizing: border-box; */
+}
+
+.demo{
+    position:fixed;
+    bottom:180px;
+    right:90px;
 }
